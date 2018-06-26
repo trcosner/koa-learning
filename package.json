@@ -1,0 +1,21 @@
+{
+  "name": "koa-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "helloWorld": "nodemon HelloWorld/helloWorld.js",
+    "helloWorldCascade": "nodemon HelloWorld/helloWorldCascade.js"
+  },
+  "author": "Tyler Cosner",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "koa": "^2.5.1",
+    "koa-logger": "^3.2.0",
+    "koa-response-time": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
